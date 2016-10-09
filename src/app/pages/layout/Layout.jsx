@@ -12,25 +12,24 @@ import UserActions from '../../../components/user/actions/UserActions.js'
 require('../../../components/layout/less/layout.less');
 
 let Layout = React.createClass({
-    componentWillMount: function () {
-        UserActions.init();
-    },
-    render: function(){
-        return (
-            <div>
-                <Header />
-                <Navigation />
+	componentWillMount: function() {
+		UserActions.init();
+	},
+	render: function() {
+		return (
+			<div>
+				<Header/>
+				<Navigation/>
 
-                <div id="main" role="main">
-                    <Ribbon />
-                    {this.props.children}
-                </div>
+				<div id="main" role="main">
+					<Ribbon/> {this.props.children}
+				</div>
 
-                <Footer />
-                <Shortcut />
-            </div>
-        )
-    }
+				<Footer/>
+				<Shortcut/>
+			</div>
+		)
+	}
 });
 
 export default Layout
