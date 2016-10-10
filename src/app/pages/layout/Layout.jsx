@@ -4,7 +4,6 @@ import Header from './Header.jsx'
 import Navigation from './Navigation.jsx'
 import Ribbon from './Ribbon.jsx'
 import Footer from './Footer.jsx'
-import Shortcut from './Shortcut.jsx'
 import DemoStylesSwitcher from '../../../components/layout/demo/DemoStylesSwitcher.jsx'
 
 import UserActions from '../../../components/user/actions/UserActions.js'
@@ -26,7 +25,6 @@ let Layout = React.createClass({
 				</div>
 
 				<Footer/>
-				<Shortcut/>
 			</div>
 		)
 	}
