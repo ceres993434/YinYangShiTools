@@ -10,9 +10,9 @@ let SmartMenuList = React.createClass({
         let {items, ...props} = this.props;
         return (
             <ul {...props}>
-                {items.map(function (item) {
-                    return <SmartMenuItem item={item} key={item._id}/>
-                    }.bind(this))}
+              {items.map(function (item) {
+                return <SmartMenuItem item={item} key={item._id}/>
+              }.bind(this))}
             </ul>
         )
     }
