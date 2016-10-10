@@ -20,6 +20,8 @@ let Navigation = React.createClass({
             <aside id="left-panel">
                 {/* No login function at the moment.
                   <LoginInfo /> */}
+                <img src="styles/img/yys.jpg"
+                     className="img-responsive" />
                 <nav>
                     <SmartMenu rawItems={rawItems} />
                 </nav>

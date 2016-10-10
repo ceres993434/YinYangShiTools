@@ -3,27 +3,27 @@
     {
       "title": "《阴阳师》简介",
       "icon": "fa fa-lg fa-fw fa-home",
-      "route": "/home"
+      "route": "/"
     },
     {
       "title": "式神数据库",
       "icon": "fa fa-lg fa-fw fa-home",
-      "route": "/home"
+      "route": "/shiShen"
     },
     {
       "title": "御魂数据库",
       "icon": "fa fa-lg fa-fw fa-home",
-      "route": "/home"
+      "route": "/yuHun"
     },
     {
       "title": "御魂模拟器",
       "icon": "fa fa-lg fa-fw fa-home",
-      "route": "/home"
+      "route": "/moNi"
     },
     {
       "title": "Boy ♂ next ♂ door",
       "icon": "fa fa-lg fa-fw fa-home",
-      "route": "/home"
+      "route": "/other"
     }
   ]
 }

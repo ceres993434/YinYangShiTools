@@ -20,7 +20,7 @@ let Header = React.createClass({
 			<header id="header">
 				<div id="logo-group">
 					<span id="logo">
-						<img src="styles/img/logo.png" alt="YinYangShiTools"/>
+						<strong>阴阳师工具 WebApp</strong>
 					</span>
 					{/* Note: The activity badge color changes when clicked and resets the number to 0
 	        Suggestion: You may want to set a flag when this happens to tick off all checked messages / notifications */}
@@ -31,14 +31,14 @@ let Header = React.createClass({
 
 				{/* No recent projects at the moment.
 					<RecentProjects/> */}
-				<div className="pull-right" /*pulled right: nav area*/>
-					<FullScreen className="btn-header transparent pull-right"/> {/* multiple lang dropdown : find all flags in the flags page */}
+				<div className="pull-right">
+					<FullScreen className="btn-header transparent pull-right"/>
 				</div>
 				{/* end pulled right: nav area */}
 
 				<DeviceDetect/>
 			</header>
-		);
+		)
 	}
 });
 
